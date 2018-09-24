@@ -1,0 +1,17 @@
+div{
+	border:0px #ffa500 solid;
+    width:300px;
+    height:300px;
+    background:#ffa500;
+	margin:10px;
+    border-radius:1em;
+    }
+.gz1{position:fixed;left:0;top:0;}
+.gz2{position:fixed;left:330px;top:0}
+.gz3{position:fixed;left:660px;top:0}
+.gz4{position:fixed;top:330px;left:0;}
+.gz5{position:fixed;top:330px;left:330px;}
+.gz6{position:fixed;top:330px;left:660px;}
+.gz7{position:fixed;top:660px;left:0;}
+.gz8{position:fixed;top:660px;left:330px;}
+.gz9{position:fixed;top:660px;left:660px;}
