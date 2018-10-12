@@ -1,0 +1,67 @@
+html{
+	font-size: 625%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #68cdd5;
+}
+.return{
+	background: url(images/task3_03.png) no-repeat;
+	background-size: contain;
+	width: .4rem;
+	height: .4rem;
+	margin-top: .19rem;
+	margin-left: .23rem;
+}
+.logo{
+	background: url(images/task3_07.png) no-repeat;
+	background-size: contain;
+	width: 1.2rem;
+	height: .5rem;
+	margin-top: .3rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.substance{
+	margin-top: .77rem;
+	margin-left: .52rem;
+	margin-right: .45rem;
+	font-size: .15rem;
+	color: #fff;
+	line-height: 2;
+	text-align: left;
+}
+li{
+	list-style-type: none;
+}
+.content1{
+	float: left;
+	margin-top: 1.1rem;
+	padding-left: .52rem;
+}
+.content2{
+	float: right;
+	margin-top: 1.1rem;
+	margin-right: .52rem;
+}
+.tel1, .tel2{
+	font-size: .14rem;
+	color: #fff;
+	margin-top: .1rem; 
+}
+.icon1, .icon2{
+	width: .5rem;
+	height: .5rem;
+}
+.icon1{
+	background: url(images/task3_11.png) no-repeat;
+	background-size: contain;
+	margin-left: .1rem;	
+}
+.icon2{
+	background: url(images/task3_14.png) no-repeat;
+	background-size: contain;
+}
