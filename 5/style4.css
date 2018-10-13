@@ -35,6 +35,7 @@ main{
 	background-size: 100% 100%;	
 	margin-top: 3rem;
 	color: #fff;
+	overflow: hidden;
 }
 .content2{
 	height: 6rem;
@@ -43,15 +44,13 @@ main{
     margin-left: 1.45rem;
 }
 .content3{
-	position: relative;
+	margin: -5rem auto auto 9.5rem;
 	bottom: 3.5rem;
-    margin-left: 2rem;
-    font-size: 1.45rem;
+    font-size: 1.2rem;
 }
 .content4{
-	position: relative;
+	margin: .5rem auto 4rem 9.5rem;
 	bottom: 4rem;
-    margin-left: 10rem;
 }
 li{
 	border-bottom: 1.5px solid #eaedee;
