@@ -140,7 +140,7 @@ b{
     color: #5fc0cd; 
 }
 .word,.date,.word2{
-    width: 30%;
+    width: 65%;
     white-space: nowrap;        /*设置段落不换行*/
     overflow: hidden;           /*设置溢出的位隐藏*/
     text-overflow: ellipsis;    /*文字溢出的用省略号显示*/
