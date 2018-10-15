@@ -1,11 +1,11 @@
-body{
+body {
 	width: 100%;
 	height: 100%;
 	margin: 0;
 	padding: 0;
 }
 /*头部*/
-header{
+header {
     background-color: #5fc0cd;
     height: 4rem;
     position: fixed;
@@ -15,7 +15,7 @@ header{
     text-align: center;
     line-height: 4rem;
 }
-.employer{
+.employer {
 	border: 0;
     background-color: #55a8b3;
     color: #fff;
@@ -24,7 +24,7 @@ header{
     height: 3rem;
     border-radius: .5rem;
 }
-.workers{
+.workers {
 	width: 6rem;
     height: 3rem;
     color: #5fc0cd;
@@ -34,7 +34,7 @@ header{
     border-radius: .5rem;
     margin-left: -12px;
 }
-.img{
+.img {
 	background: url(images/task5-2_07.png) no-repeat;
 	background-size: contain;
 	width: 1.5rem;
@@ -44,38 +44,38 @@ header{
     margin: 1rem 1rem auto;
 }
 /*下拉框*/
-.nav{
+.nav {
 	margin-top: 4rem;
 }
-.drop-down{
+.drop-down {
     display: flex;
     align-items: center;
     height: 3rem;
     border-bottom: .1rem solid #e1e5e7;
 }
-.drop-down p{
+.drop-down p {
     font-size: 1rem;
     color: #afbac0;
     padding-right: 1rem;
 }
-.drop-down-lists{
+.drop-down-lists {
     flex: 30%;
 }
-.frame{
+.frame {
     text-align: center;
     margin-top: -1rem;
     width: 100%;
     height: 1.5rem;
     border-right: .01rem solid #e1e5e7;
 }
-.hide{
+.hide {
     display: none;
     position: absolute;
     width: 33.3%;
     background-color: #f9f9f9;  
     border: .01rem solid #e1e5e7;
 }
-b{
+b {
     display: inline-flex;
     float: right;
 	margin-top: .5rem;
@@ -85,7 +85,7 @@ b{
 	border-style: solid dashed dashed;
 	border-color: #afbac0 transparent transparent;
 }
-.hide a{
+.hide a {
     display: block;
     height: 1.5rem;
     line-height: 1.5rem;
@@ -95,19 +95,19 @@ b{
     text-align: center;
     border-bottom:.01rem solid #e1e5e7;
 }
-.drop-down-lists:hover .hide{
+.drop-down-lists:hover .hide {
     display: block;
 }
-.hidet a:hover{
+.hidet a:hover {
     background-color: #5fc0cd;
 }
 
 /*列表*/
-.list{
+.list {
     padding: 1rem;
     border-bottom: 1px solid #e1e5e7;
 }
-.picture{
+.picture {
     background: url(images/task5-2_09.png) no-repeat 0 0;
     background-size: 1.9rem .8rem;
     width: .9rem;
@@ -115,7 +115,7 @@ b{
     margin-top: .3rem;
     margin-right: .45rem;
 }
-.picture1{
+.picture1 {
     background: url(images/task5-2_09.png) no-repeat -16px 0;
     background-size: 1.9rem .8rem;
     width: .9rem;
@@ -123,23 +123,23 @@ b{
     margin-top: .3rem;
     margin-right: .45rem;
 }
-.service,.toponym{
+.service,.toponym {
     color: #999;
     display: flex;
 }
-.date{
+.date {
     padding-left: 1.2rem;
 }
-.price{
+.price {
     float: right;
     color: #e63b0e;
     text-decoration: none;
     margin: -2.4rem 0 auto auto;
 }
-.price span{
+.price span {
     color: #5fc0cd; 
 }
-.word,.date,.word2{
+.word,.date,.word2 {
     width: 65%;
     white-space: nowrap;        /*设置段落不换行*/
     overflow: hidden;           /*设置溢出的位隐藏*/
@@ -147,7 +147,7 @@ b{
 
 }
 /*底部*/
-footer{
+footer {
     display: flex;
     justify-content: space-around;
 	height: 3.2rem;
@@ -157,21 +157,21 @@ footer{
     width: 100%;
     background-color: #f8fafb;
 }
-.homepage{
+.homepage {
 	background: url(images/task5-2_05.png) no-repeat;
 	width: 1.9rem;
 	height: 3rem;
 	border: 0;
 	background-size: contain;
 }
-.write{
+.write {
 	background: url(images/task5-2_01.png) no-repeat;
 	width: 3rem;
 	height: 3rem;
 	border: 0;
 	background-size: contain;
 }
-.mine{
+.mine {
 	background: url(images/task5-2_06.jpg) no-repeat;
 	width: 1.8rem;
 	height: 3rem;
