@@ -17,9 +17,9 @@ header {
 }
 .Button1 {
 	background: url(images/task7_11.png) no-repeat;
-	background-size: 259.7px 200.9px;
-	background-position: -6px -163px;
-	width: 3.8rem;
+	background-size: 25.97vh 20.09vh;
+	background-position: -.6vh -16.3vh;
+	width: 3.8vh;
 	height: 4.4vh;
 	margin-top: 2.8vh;
 	margin-left: 1rem;
@@ -30,8 +30,8 @@ header p {
 }
 .Button2 {
 	background: url(images/task7_11.png) no-repeat;
-	background-size: 259.7px 200.9px;
-	background-position: -55px -164px;
+	background-size: 25.97vh 20.09vh;
+	background-position: -5.5vh -16.4vh;
 	width: 4.4vh;
 	height: 4.2vh;
 	margin-top: 2.8vh;
@@ -48,7 +48,7 @@ header p {
 }
 .icon {
 	background: url(images/task7_10.png) no-repeat;
-	background-size: 245.7px 143.5px;
+	background-size: 100% 100%;
 	width: 36.5vh;
 	height: 21.6vh;
 }
