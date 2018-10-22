@@ -18,9 +18,9 @@ header {
 }
 .Button1 {
 	background: url(images/task7_06.png) no-repeat;
-	background-size: 309.6px 57.6px;
-	background-position: -211.5px -7px;
-	width: 3.3rem;
+	background-size: 30.96vh 5.76vh;
+	background-position: -21.15vh -.7vh;
+	width: 3.3vh;
 	height: 4.7vh;
 	margin-top: 2.8vh;
 	margin-left: 1rem;
@@ -32,9 +32,9 @@ header p {
 }
 .Button2 {
 	background: url(images/task7_06.png) no-repeat;
-	background-size: 309.6px 57.6px;
-	background-position: -167px -7px;
-	width: 4.6vh;
+	background-size: 30.96vh 5.76vh;
+	background-position: -16.7vh -.7vh;
+	width: 3vh;
 	height: 4.6vh;
 	margin-top: 2.8vh;
 	margin-right: 1rem;
@@ -101,16 +101,20 @@ audio {
 /*选手主体*/
 main {
 	display: flex;
-	flex-flow: row wrap;
+	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
 	margin-bottom: 15rem;
 }
+.big-box {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	margin-bottom: 2.8vh;
+}
 .box {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	margin: 0 3vw 2vh 3vw;
 }
 .box-box {
 	display: flex;
@@ -119,12 +123,14 @@ main {
 	width: 12vh;
 	height: 12vh;
 	display: inline-block;
+	margin-bottom: 1.7vh;
 }
 .content {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex: 1 1 auto;
+	width: 12vh;
 	height: 8.7vh;
 	background-color: #f5c97b;
 	color: #565656;
@@ -134,17 +140,18 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 12vh;
 	height: 2.8vh;
 	flex: 0 1 auto;
 	background-color: #83b09a;
 	color: #fff;
 	font-size: 2.3vh;
+	padding-bottom: .5vh;
 }
 .box-box1 {
 	position: absolute;
 	display: none;
-	margin-top: -5.6vh;
-	margin-left: .2vh;
+	padding-top: 1.5vh;
 }
 .box-box:hover .box-box1 {
 	display: flex;
@@ -155,32 +162,32 @@ main {
 	width: 2.9vh;
 	height: 2.7vh;
 	background: url(images/task7_06.png) no-repeat;
-	background-size: 270.9px 50.4px;
-	background-position: -8.5px -9px;
+	background-size: 38.7vh 7.2vh;
+	background-position: -1vh -1.1vh;
 	border: 0;
 }
 .button2 {
 	width: 3vh;
 	height: 2.7vh;
 	background: url(images/task7_06.png) no-repeat;
-	background-size: 270.9px 50.4px;
-	background-position: -43px -9px;
+	background-size: 38.7vh 7.2vh;
+	background-position: -6vh -1.1vh;
 	border: 0;
 }
 .button3 {
 	width: 3vh;
 	height: 2.7vh;
 	background: url(images/task7_06.png) no-repeat;
-	background-size: 270.9px 50.4px;
-	background-position: -76px -9px;
+	background-size: 38.7vh 7.2vh;
+	background-position: -11vh -1.1vh;
 	border: 0;
 }
 .button4 {
 	width: 2.9vh;
 	height: 2.7vh;
 	background: url(images/task7_06.png) no-repeat;
-	background-size: 270.9px 50.4px;
-	background-position: -113px -9px;
+	background-size: 38.7vh 7.2vh;
+	background-position: -16vh -1.1vh;
 	border: 0;
 }
 /*底部*/
