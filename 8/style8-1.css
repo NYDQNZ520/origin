@@ -5,28 +5,127 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #fafafa;
-	width: 192rem;
+}
+@media only screen and (max-width: 575px){
+    .v {
+        flex-direction: column;
+        text-align: center;
+    }
+    .m{
+    	margin-bottom: 1rem;
+    }
+    .p {
+    	margin-left: -1rem;
+    }
+	.dropdown-toggle::after {
+		content: none;
+	}
+	.navbar-btn {
+		display: none;
+	}
+	.r {
+		position: relative;
+	}
+	.navbar-collapse {
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		top: 9rem;
+		left: 0;
+		background-color: #29b078;
+	}
+	.navbar-collapse .option {
+		float: right;
+		padding-bottom: .5rem;
+		padding-top: .5rem;
+		text-align: center;
+	}
+	.navbar-collapse .option:hover {
+		background-color: #20c997;
+		border: 0;
+	}
+	/*按钮样式*/
+	.dropdown-toggle {
+		border: none;
+		padding-top: .7rem;
+		border-radius: .5rem;
+		background-color: #29b078;
+	}
+	 .icon-bar {
+		margin-bottom: .5rem;
+		display: block;
+		width: 2.5rem;
+		height: .4rem;
+		background-color: #ccc;
+	}
+	.dropdown:hover .navbar-collapse {
+    	display: inline-block;
+    }
+    .footer-box1 {
+    	padding-top: 1rem;
+    }
+    .x {
+    	font-style:italic;
+    }
+    main .box-header {
+    	width: 100%;padding: 0;
+    	padding-top: 2rem;
+    	padding-bottom: 2.8rem;
+    	text-align: center;
+    }
+    .active .carousel-caption {
+    	top: 7vw; 
+    }
+    main .box1 {
+    	margin-top: 5rem; 
+    }
+    main .toph3 {
+    	margin-top: 50rem;
+    }
+    .box3 .d-flex {
+    	margin-bottom: 1rem;
+    }
+    .box4 .d-flex {
+    	margin-bottom: 1rem;
+    }
+    body .box9 {
+    	height: 40rem;
+    	margin-top: 80rem;
+    	margin-bottom: 2rem;
+    }
+    .box9 ul {
+        padding-left: 40vw;
+    }
+    footer .footer-box7 {
+    	font-size: 5px;
+    }
+    footer .footer-box6 {
+    	align-items: center;
+    	margin-right: auto;
+    	margin-left: auto;
+    }
+}
+@media only screen and (min-width: 576px) {
+    .p {
+    	padding-left: 1.5rem;
+    }
+    .dropdown-toggle {
+    	display: none;
+    }
+    .navbar-btn {
+    	display: none;
+    }
+    .navbar-collapse {
+    	display: block;
+    }
 }
 header {
 	top: 0;
-	width: 100%;
+	display: block;
 }
 .top {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 	height: 3.8rem;
-}
-.hotline {
 	color: #396;
-	font-size: 1.4rem;
-	margin-left: 18.8rem;
-}
-.small-box {
-	display: flex;
-	justify-content: space-around;
-	width: 13rem;
-	margin-right: 18.8rem;
 }
 .weixin {
 	background: url(images/css_sprites.png) no-repeat;
@@ -49,34 +148,66 @@ header {
 	width: 2.7rem;
 	height: 2.7rem;
 }
-.top2 {
-	height: 9.8rem;
-	background-color: #29b078;
-	display: flex;
-	justify-content: flex-end;
+.dropdown {
+	position: static;
 }
 .option {
-	line-height: 9.8rem;
+	font-size: 1.6rem;
 	color: #fff;
-	height: 9.8rem;
-	width: 5.2rem;
-	text-align: center;
+	padding-bottom: 3.7rem;
 }
-.option1 {
-	margin-right: 18.8rem;
+.top3 {
+	display: flex;
+}
+.option0 {
+	background: url(images/37371.jpg) no-repeat;
+	background-size: 100% 100%;
+	max-width: 11rem;
+	min-width: 11rem;
+	height: 5rem;
 }
 .option:hover {
 	border-bottom: .4rem solid #fff;
 	color: #fff;
 	text-decoration: none;
 }
-.print {
+.h {
 	width: 100%;
-	height: 47.5rem;
+	height: 10rem;
+	background-color: #29b078;
 }
-.text-box {
+.a {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	padding-left: 0;
+}
+.b {
+	border-bottom: 1px solid #dee2e6;
+}
+.nav-tabs {
+	border: none;
+}
+.c {
+	height: 9.8rem;
+}
+.p {
+	color: #999;
+	font-size: 1.4rem;
+}
+.w {
+	white-space: nowrap
+}
+.l {
+	margin-right: -2rem;
+}
+.carousel-inner img {
+	width: 100%;
+}
+div .carousel-caption {
 	position: absolute;
-	top: 23.75rem;
+	top: 15vw;
+	left: auto;
+	right: auto;
 	width: 100%;
 	height: 5rem;
 	display: flex;
@@ -86,13 +217,13 @@ header {
 	color: #fff;
 }
 .text1 {
-	font-size: 4rem;
+	font-size: 2vw;
 }
 .text2 {
-	font-size: 6rem;
+	font-size: 4vw;
 }
 .text3 {
-	font-size: 10rem;
+	font-size: 8vw;
 	color: #fff;
 }
 main {
@@ -110,26 +241,22 @@ h3 {
 	display: flex;
 	justify-content: space-between;
 	height: 26rem;
-	margin-left: 18.8rem;
-	margin-right: 18.8rem;
 	margin-top: 17rem;
 	line-height: 2.6rem;
 }
 .box-box1 {
-	width: 22rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-start;
 }
-span {
+main span {
 	font-size: 1.8rem;
 	color: #333;
 	padding-bottom: 2rem;
 }
 .box2 {
 	height: 26rem;
-	width: 22rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -173,9 +300,6 @@ span {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-left: 18.8rem;
-	margin-right: 18.8rem;
-	height: 7.4rem;
 }
 .circular1 {
 	width: 7.3rem;
@@ -195,6 +319,9 @@ span {
 	width: 3.5rem;
 	height: 3rem;
 }
+ main .kg {
+    width: 3.5rem;
+}
 .text4 {
 	width: 16rem;
 	padding-top: 1rem; 
@@ -204,17 +331,9 @@ span {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: 10rem 18.8rem auto 18.8rem;
-	height: 8.1rem;
-}
-.box5 {
-	display: flex;
-	justify-content: space-between;
-	margin-left: 18.8rem;
-	margin-right: 18.8rem;
+	margin-top: 10rem;
 }
 .box6 {
-	width: 26rem;
 	height: 35.6rem;
 	display: flex;
 	flex-direction: column;
@@ -225,7 +344,7 @@ span {
 	margin-bottom: 3rem;
 }
 .box6:hover {
-	box-shadow: darkgrey 0px 0px 30px 5px;
+	box-shadow: darkgrey 0px 0px 30px 5px;z-index: 1;
 }
 .box6 p {
 	margin-left: 3rem;
@@ -261,17 +380,18 @@ span {
 }
 .graph4 {
 	margin: auto;
+	height: 35.6rem;
 }
 .box7 {
-	display: flex;
 	height: 17.5rem;
-	margin: 1.8rem 18.8rem 9.2rem 18.8rem;
+	margin-top: 1.8rem;
+	margin-bottom: 9.2rem;
 }
 .box8 {
-	flex-grow: 1;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: 17.5rem;
 	background-color: #fff;
 }
 .box8:hover {
@@ -289,8 +409,8 @@ span {
 .box-box12 {
 	background: url(images/css_sprites.png) no-repeat;
 	background-size: 182.1rem 143rem;
-	background-position: -41rem -45.4rem;
-	width: 15rem;
+	background-position: -45rem -45.4rem;
+	width: 7rem;
 	height: 6.5rem;
 }
 .box-box13 {
@@ -323,41 +443,29 @@ span {
 	padding-top: 2.2rem;
 	margin-bottom: 2.7rem;
 }
-ul {
-	margin-left: 18.8rem;
-	margin-right: 18.8rem;
+.box9 ul {
 	display: flex;
 	justify-content: space-around;
 	color: #999;
+}
+.box9 li {
+	padding-left: 0;
 }
 .box-ul {
 	margin-top: 1.6rem;
 	padding-bottom: 2.2rem;
 }
-a {
+.box9 a {
 	color: #999;
 }
 footer{
 	width: 100%;
-	height: 20rem;
 	background-color: #26a26f;
 	color: #fff;
-	display: flex;
-	flex-direction: column;
+	font-size: 1.6rem;
 }
-.footer1 {
-	margin-left: 18.8rem;
-	margin-right: 18.8rem;
-	height: 17rem;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.footer1 a {
+.footer2 a {
 	color: #fff;
-}
-.footer2 {
-	display: flex;
 }
 .footer-box1 {
 	display: flex;
@@ -365,23 +473,17 @@ footer{
 	justify-content: space-between;
 	height: 10rem;
 }
-.footer3 {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	margin-left: 8.5rem;
-	height: 10rem;
-}
 .footer-box2 {
 	display: flex;
 	width: 23rem;
 }
 .link2 {
-	padding-right: 1rem;
+	padding-right: .5rem;
+	padding-left: .5rem;
 }
 .link3 {
-	padding-right: 1rem;
-	padding-left: 1rem;
+	padding-right: .5rem;
+	padding-left: .5rem;
 	border-left: .1rem solid #fff;
 }
 .footer-box3 {
@@ -393,13 +495,6 @@ footer{
 	flex-direction: column;
 	justify-content: space-between;
 	height: 5rem;
-}
-.footer-box5 {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: 5rem;
-	margin-left: 5rem;
 }
 .link4 {
 	margin-bottom: .5rem;
