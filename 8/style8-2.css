@@ -27,7 +27,8 @@ body {
 		position: relative;
 	}
 	.navbar-collapse {
-		position: absolute;z-index: 1;
+		position: absolute;
+		z-index: 1;
 		width: 100%;
 		top: 9rem;
 		left: 0;
@@ -48,13 +49,14 @@ body {
 		border: none;
 		padding-top: .7rem;
 		border-radius: .5rem;
+		background-color: #fff;
 	}
 	 .icon-bar {
 		margin-bottom: .5rem;
 		display: block;
 		width: 2.5rem;
 		height: .4rem;
-		background-color: #28a745;
+		background-color: #999;
 	}
 	.dropdown:hover .navbar-collapse {
     	display: inline-block;
