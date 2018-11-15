@@ -6,7 +6,7 @@ body {
 	padding: 0;
 	background-color: #fafafa;
 }
-@media only screen and (max-width: 575px){
+@media only screen and (max-width: 767px){
     .v {
         flex-direction: column;
         text-align: center;
@@ -67,9 +67,6 @@ body {
     .active .carousel-caption {
     	top: 7vw; 
     }
-    main .box1 {
-    	margin-top: 5rem; 
-    }
     main .toph3 {
     	margin-top: 50rem;
     }
@@ -96,14 +93,9 @@ body {
     	margin-left: auto;
     }
 }
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 768px) {
     .p {
     	padding-left: 1.5rem;
-    }
-    .h {
-	width: 100%;
-	height: 10rem;
-	background-color: #29b078;
     }
     .navbar-btn {
     	display: none;
@@ -132,30 +124,28 @@ header {
 	top: 0;
 	display: block;
 }
+.h {
+	width: 100%;
+	background-color: #29b078;
+}
 .top {
 	height: 3.8rem;
 	color: #396;
 }
 .weixin {
-	background: url(images/css_sprites.png) no-repeat;
-	background-size: 182.1rem 143rem;
-	background-position: -14rem -13.6rem;
-	width: 2.7rem;
-	height: 2.7rem;
+	background: url(images/443.png) no-repeat;
+	width: 4.2rem;
+	height: 3.1rem;
 }
 .qq {
-	background: url(images/css_sprites.png) no-repeat;
-	background-size: 182.1rem 143rem;
-	background-position: -4.6rem -4.4rem;
-	width: 2.7rem;
-	height: 2.7rem;
+	background: url(images/223.png) no-repeat;
+	width: 4.2rem;
+	height: 3.1rem;
 }
 .xinlang {
-	background: url(images/css_sprites.png) no-repeat;
-	background-size: 182.1rem 143rem;
-	background-position: -9.2rem -9rem;
-	width: 2.7rem;
-	height: 2.7rem;
+	background: url(images/333.png) no-repeat;
+	width: 4.2rem;
+	height: 3.1rem;
 }
 .navbar {
 	background-color: #29b078;
