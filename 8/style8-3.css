@@ -67,9 +67,6 @@ body {
     .active .carousel-caption {
     	top: 7vw; 
     }
-    main .box1 {
-    	margin-top: 5rem; 
-    }
     main .toph3 {
     	margin-top: 50rem;
     }
@@ -97,6 +94,9 @@ body {
     }
 }
 @media only screen and (min-width: 768px) {
+	.bor-b-edf {
+		margin: 1rem 0;
+	}
     .p {
     	padding-left: 1.5rem;
     }
@@ -121,6 +121,14 @@ body {
 	border-bottom: .4rem solid #fff;
 	color: #fff;
 	text-decoration: none;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+	div .nav-tabs li {
+		margin-left: 2rem;
+	}
+	footer .footer-box6 {
+    	margin-right: 0;
     }
 }
 header {

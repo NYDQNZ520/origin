@@ -123,9 +123,32 @@ body {
 	text-decoration: none;
     }
 }
-header {
-	top: 0;
-	display: block;
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	main .toph3 {
+    	margin-top: 5rem;
+    }
+    body .box9 {
+    	margin-top: 8rem;
+    	height: 20rem;
+    }
+    .box9 ul {
+    	padding-left: 0;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+	footer .footer-box6 {
+    	margin-right: 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+	body .box9 {
+		height: 20rem;
+	}
+}
+@media only screen and (max-width: 991px) {
+	main .box7 {
+		height: 35rem;
+	}
 }
 .h {
 	width: 100%;
