@@ -138,19 +138,19 @@ header {
 	color: #396;
 }
 .weixin {
-	background: url(images/443.png) no-repeat;
-	width: 4.2rem;
-	height: 3.1rem;
+	background: url(images/wx.png) no-repeat;
+	width: 3rem;
+	height: 2.7rem;
 }
 .qq {
-	background: url(images/223.png) no-repeat;
-	width: 4.2rem;
-	height: 3.1rem;
+	background: url(images/qq.png) no-repeat;
+	width: 3rem;
+	height: 2.7rem;
 }
 .xinlang {
-	background: url(images/333.png) no-repeat;
-	width: 4.2rem;
-	height: 3.1rem;
+	background: url(images/xl.jpg) no-repeat;
+	width: 3rem;
+	height: 2.7rem;
 }
 .navbar {
 	background-color: #29b078;
@@ -163,7 +163,7 @@ header {
 	display: flex;
 }
 .option0 {
-	background: url(images/37371.jpg) no-repeat;
+	background: url(images/logo.png) no-repeat;
 	background-size: 100% 100%;
 	max-width: 11rem;
 	min-width: 11rem;
