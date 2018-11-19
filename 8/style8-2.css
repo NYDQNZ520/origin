@@ -17,6 +17,9 @@ body {
     .p {
     	margin-left: -1rem;
     }
+    body .ng-scope {
+    	height: 6rem;
+    }
 	.dropdown-toggle::after {
 		content: none;
 	}
@@ -25,6 +28,24 @@ body {
 	}
 	.r {
 		position: relative;
+	}
+	.weixin, .qq, .xinlang, .px-sm-1 {
+		display: none;
+	}
+	.top-box {
+		display: flex;
+		flex-direction: row;
+	}
+	.top-box a {
+		padding-left: 1rem;
+		font-size: 1.3rem;
+		color: #000;
+	}
+	.top-box1 {
+		padding-right: 1rem;
+	}
+	.top-box2 {
+		border-left: .2rem solid #28a745;
 	}
 	.navbar-collapse {
 		z-index: 1;
@@ -98,6 +119,9 @@ body {
     	padding-left: 1.5rem;
     }
     .navbar-btn {
+    	display: none;
+    }
+    .top-box {
     	display: none;
     }
     .navbar {
