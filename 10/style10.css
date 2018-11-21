@@ -303,7 +303,7 @@ main .col-lg-10{
 	color: #36c;
 }
 .img1 {
-	background: url(images/css_sprites.png) no-repeat;
+	background: url(images/css_sprites1.png) no-repeat;
 	background-position: -1rem -1rem;
 	background-size: 11.2rem 23.9rem;
 	width: 2.7rem;
@@ -312,7 +312,7 @@ main .col-lg-10{
 	margin-right: .3rem;
 }
 .img2 {
-	background: url(images/css_sprites.png) no-repeat;
+	background: url(images/css_sprites1.png) no-repeat;
 	background-position: -1rem -5rem;
 	background-size: 11.2rem 23.9rem;
 	width: 2.7rem;
@@ -320,7 +320,7 @@ main .col-lg-10{
 	margin-left: .7rem;
 	margin-right: .5rem;
 }.img3 {
-	background: url(images/css_sprites.png) no-repeat;
+	background: url(images/css_sprites1.png) no-repeat;
 	background-position: -1rem -9.5rem;
 	background-size: 11.2rem 23.9rem;
 	width: 2.7rem;
@@ -497,7 +497,7 @@ input[type="text"]{
 }
 /*二维码*/
 .footer-img {
-	background: url(images/css_sprites.png) no-repeat;
+	background: url(images/css_sprites1.png) no-repeat;
 	background-position: -1rem -13.5rem;
 	background-size: 11.2rem 23.9rem;
 	height: 9.5rem;
