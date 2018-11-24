@@ -1,0 +1,84 @@
+html {
+	font-size: 62.5%; 
+}
+@mixin no-bullets {
+	display: flex;
+    align-items: center;
+}
+$background-color: #eff0f4;
+$header-color: #5fc0cd;
+$a-color: #fff;
+$font-size: 1.8rem;
+$header-height: 7rem;
+$header-form: 8rem;
+$margin-left: 1.8rem;
+$cell-background-color:#fff;
+$cell-text-color:#eaedee;
+$height-button:8.1rem;
+body {
+	margin: 0;
+	padding: 0;
+	background-color: $background-color;
+}
+header {
+    width: 100%;
+    height: $header-height;
+    background-color: $header-color;
+    font-size: $font-size;
+    .box-margin {
+    @include no-bullets;
+    justify-content: space-between;
+    margin-left:$margin-left;
+    margin-right:$margin-left;
+    height: $header-height;
+    }
+    a {color: $a-color;}
+}
+a {text-decoration:none;}
+.cell {
+    @include no-bullets;
+	width:100%;
+	height:$header-form;
+	background-color:$cell-background-color;
+	.img1 {
+	background: url(images/css_sprites4.png) no-repeat;
+	background-position: -.8rem -.8rem;
+	background-size: 3.92rem 9.92rem;
+	width: 2.4rem;
+	height: 3.44rem;
+	margin-left: $margin-left;
+	padding-right: $margin-left;
+	border-right: 1px solid $cell-text-color;
+	}
+	.img2 {
+	background: url(images/css_sprites4.png) no-repeat;
+	background-position: -.8rem -5.7rem;
+	background-size: 3.92rem 9.92rem;
+	width: 2.4rem;
+	height: 3.44rem;
+	margin-left: $margin-left;
+	padding-right: $margin-left;
+	border-right: 1px solid $cell-text-color;
+	}
+	input {margin-left: $margin-left;border:0;}
+}
+input::-webkit-input-placeholder {color: $cell-text-color;}
+input:-moz-placeholder {color: $cell-text-color;}
+input::-moz-placeholder {color: $cell-text-color;}
+input:-ms-input-placeholder {color: $cell-text-color;}
+button {
+    margin-top:6rem;
+	width:100%;
+	height:$height-button;
+	background-color:$header-color;
+	color: $a-color;
+	font-size:$font-size;
+	border:0;
+}
+.wangjimm{
+	float: right;
+	margin-top:$margin-left*2/3;
+	margin-right:$margin-left;
+	font-size:$font-size*3/4;
+	color:$header-color;
+}
