@@ -1,0 +1,178 @@
+@charset "UTF-8";
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei" 
+  }
+
+/*头部*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: #5fc0cd;
+  text-align: center;
+  line-height: 4rem; }
+
+.employer {
+  border: 0;
+  width: 6rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  border-radius: .5rem;
+  background-color: #55a8b3;
+  color: #fff; }
+
+.workers {
+  border: 0;
+  width: 6rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  border-radius: .5rem;
+  color: #5fc0cd;
+  background-color: #fff;
+  margin-left: -12px; }
+
+.img {
+  float: right;
+  margin: 1rem 1rem auto;
+  border: 0;
+  width: 1.5rem;
+  height: 2rem;
+  background: url(images/task5-2_07.png) no-repeat;
+  background-size: contain; }
+
+/*下拉框*/
+.nav {
+  margin-top: 4rem; }
+
+.drop-down {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  border-bottom: 0.1rem solid #e1e5e7; }
+  .drop-down p {
+    padding-right: 1rem;
+    font-size: 1rem;
+    color: #afbac0; }
+
+.drop-down-lists {
+  flex: 30%; }
+  .drop-down-lists:hover .hide {
+    display: block; }
+  .drop-down-lists .frame {
+    text-align: center;
+    margin-top: -1rem;
+    width: 100%;
+    height: 1.5rem;
+    border-right: 0.01rem solid #e1e5e7; }
+    .drop-down-lists .frame b {
+      display: inline-flex;
+      float: right;
+      margin-top: .5rem;
+      width: 0;
+      height: 0;
+      border-width: 5px;
+      border-style: solid dashed dashed;
+      border-color: #afbac0 transparent transparent; }
+
+.hide {
+  display: none;
+  position: absolute;
+  width: 33.3%;
+  background-color: #f9f9f9;
+  border: 0.01rem solid #e1e5e7; }
+  .hide a {
+    display: block;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    color: #afbac0;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 0.01rem solid #e1e5e7; }
+    .hide a:hover {
+      background-color: #5fc0cd; }
+
+/*列表*/
+.list {
+  padding: 1rem;
+  border-bottom: 1px solid #e1e5e7; }
+  .list .service, .list .toponym {
+    display: flex;
+    color: #999; }
+
+.picture {
+  background: url(images/task5-2_09.png) no-repeat 0 0;
+  background-size: 1.9rem .8rem;
+  width: .9rem;
+  height: .8rem;
+  margin-top: .3rem;
+  margin-right: .45rem; }
+
+.picture1 {
+  background: url(images/task5-2_09.png) no-repeat -16px 0;
+  background-size: 1.9rem .8rem;
+  width: .9rem;
+  height: .8rem;
+  margin-top: .3rem;
+  margin-right: .45rem; }
+
+.date {
+  padding-left: 1.2rem;
+  color: #000; }
+
+.price {
+  float: right;
+  margin: -2.4rem 0 auto auto;
+  color: #e63b0e;
+  text-decoration: none; }
+  .price span {
+    color: #5fc0cd; }
+
+.word, .date, .word2 {
+  width: 50%;
+  white-space: nowrap;
+  /*设置段落不换行*/
+  overflow: hidden;
+  /*设置溢出的位隐藏*/
+  text-overflow: ellipsis;
+  /*文字溢出的用省略号显示*/ }
+
+/*底部*/
+footer {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3.2rem;
+  background-color: #f8fafb; }
+
+.homepage {
+  background: url(images/task5-2_05.png) no-repeat;
+  width: 1.9rem;
+  height: 3rem;
+  border: 0;
+  background-size: contain; }
+
+.write {
+  background: url(images/task5-2_01.png) no-repeat;
+  width: 3rem;
+  height: 3rem;
+  border: 0;
+  background-size: contain; }
+
+.mine {
+  background: url(images/task5-2_06.jpg) no-repeat;
+  width: 1.8rem;
+  height: 3rem;
+  border: 0;
+  background-size: contain; }
+
+/*# sourceMappingURL=style5-2.css.map */

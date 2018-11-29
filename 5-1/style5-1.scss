@@ -1,0 +1,129 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+$header-height:3rem;
+$header-b-color:#5fc0cd;
+$header-color:#fff;
+$header-font-size:1.5rem;
+$touxiang-height:6rem;
+$main-box-height:11.5rem;
+$li-height:3rem;
+$li-border-color:#eaedee;
+$li-color:#999;
+$jiage-color:#f66;
+$li-font-size:1rem;
+$footer-height:4rem;
+$footer-b-color:#fff;
+$footer-button:#5fc0cd;
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:$header-height;
+	background-color:$header-b-color;
+	font-size: $header-font-size;
+	a{
+	    float:left;
+	    line-height:$header-height;
+	    margin-left: 0.5rem;
+	    color:$header-color;
+	    text-decoration: none;
+	}
+	p{
+	    margin: 0;
+	    text-align: center;
+	    line-height: $header-height; 
+	    color:$header-color;
+	}
+}
+main{
+	margin-bottom: 5rem;
+	ul{
+	    padding-left:1rem;
+	}
+}
+.main-box{
+	background: url(images/task5-1_02.png) no-repeat;
+	background-size: 100% 100%;	
+	margin-top: $header-height;
+	height:$main-box-height;
+	color:$header-color;
+}
+.touxiang{
+	height: $touxiang-height;
+	width: $touxiang-height;
+    padding-top: ($main-box-height - 6) / 2;
+    margin-left: 1.45rem;
+}
+.xinxi{
+	margin: -5rem auto auto $touxiang-height + 3;
+	bottom: 3.5rem;
+    font-size: 1.2rem;
+}
+.dizhi{
+	margin: .5rem auto 4rem $touxiang-height + 3;
+}
+
+li{
+	display: flex;
+	align-items: center;
+	height: $li-height;
+	border-bottom: 1.5px solid $li-border-color;
+	font-size:$li-font-size;
+	p{
+	    padding-left: .5rem;
+	}
+	span{
+	    color:$li-color;
+	    border-right: 1px solid #999;
+	    padding-right: .5rem;
+	    flex-shrink: 0;
+	    	}
+}
+.jineng{
+	padding-left: .5rem;
+	color: #000;
+	border-right: none;
+	border-left: 3px solid #5fc0cd;
+}
+.jiage{
+	color: $jiage-color;
+}
+.introduce{
+	font-size: $li-font-size - .2;
+	line-height: $li-font-size;
+}
+footer{
+    position: fixed;
+	height: $footer-height;
+	bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:$footer-b-color;
+}
+@mixin button {
+	margin: .25rem;
+	height: $footer-height - .5;
+	width: 46%;
+	font-size: 1.5rem;
+    border-radius: .5rem;
+}
+.message{	
+	@include button;
+	color: $footer-button;
+    border: 2px solid $footer-button;
+    background-color: $footer-b-color;
+}
+
+.telephone{
+    float: right;
+    margin-right: .5rem;
+	@include button;
+	color: $footer-b-color;
+    border: 2px solid $footer-button;
+    background-color: $footer-button;
+}
