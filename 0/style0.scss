@@ -1,0 +1,31 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+
+main {
+	div {
+	    display: flex;
+	    justify-content: center;
+	    a {
+	        display: flex;
+	        justify-content: center;
+	        align-items: center;
+	        flex-direction: column;
+	        margin:1rem;
+	        height:12rem;
+	        background-color: #cff;
+	        border-radius: .5rem;
+	        &:hover{
+	            text-decoration:none;
+	        }
+	        p {
+	            text-decoration:none;
+	        }
+	        img {
+	            height:9rem;
+	        }
+	    }
+	}
+}

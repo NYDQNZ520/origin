@@ -1,0 +1,127 @@
+html {
+	font-size: 62.5%; 
+}
+$header-height:8.1vh;
+$header-b-color:#29bde0;
+$header-p-font-size:3.3vh;
+$header-p-color:#fff;
+$box-b-color:#29bde0;
+$box-font-size:3.3vh;
+$box-color:#ffc865;
+$subject-font-size:2vh;
+$subject-b-color:#29bde0;
+$main-color:#999;
+$main-font-size:2vh;
+$main-span-font-size:3vh;
+$main-span-color: #000;
+$main-span1-color:#ccc;
+$footer-b-color:#29bde0;
+$footer-height:11.8vh;
+$footer-button-b-color:#f66f6f;
+$footer-button2-b-color: #fbb435;
+$footer-button-color:#fff;
+$footer-button-font-size:3.3vh;
+/*头部*/
+header {
+	height: $header-height;
+	background-color: $header-b-color;
+	p {
+	font-size: $header-p-font-size;
+	color: $header-p-color;
+    }
+}
+.Button1 {
+	background: url(images/task7_11.png) no-repeat;
+	background-size: 25.97vh 20.09vh;
+	background-position: -.6vh -16.3vh;
+	width: 3.8vh;
+	height: 4.4vh;
+	margin-top: 2.8vh;
+}
+.Button2 {
+	background: url(images/task7_11.png) no-repeat;
+	background-size: 25.97vh 20.09vh;
+	background-position: -5.5vh -16.4vh;
+	width: 4.4vh;
+	height: 4.2vh;
+	margin-top: 2.8vh;
+	margin-left: 2vh;
+}
+.box {
+	padding-top: 10vh;
+	background-color: $box-b-color;
+	p {
+	color: $box-color;
+	font-size: $box-font-size;
+	margin: 2vh 4vw 2vh 7vw;
+    }
+}
+.icon {
+	background: url(images/task7_10.png) no-repeat;
+	background-size: 100% 100%;
+	width: 36.5vh;
+	height: 21.6vh;
+}
+
+.subject {
+	height: 15vh;
+	color: #fff;
+	font-size: 2vh;
+	background-color: $subject-b-color;
+	padding-left: $subject-font-size;
+}
+
+.box-box {
+	line-height: 0.7vh;
+	margin-bottom: 1vh;
+}
+main {
+	color:$main-color;
+	font-size:$main-font-size;
+	line-height: 1vh;
+	margin-bottom: 11.8vh;
+}
+.box3 {
+	margin-top: 2vh;
+	height: 11vh;
+	padding-left: 4vh;
+	padding-right: 4vh;
+	border-bottom: 1px solid #ccc;
+}
+
+.typeface1 {
+	color: $main-span-color;
+	font-size: $main-span-font-size;
+	margin-bottom: 1.5vh;
+}
+.typeface2 {
+	color: $main-span1-color;
+}
+/*底部*/
+footer {
+	height: $footer-height;
+}
+.background {
+	height: $footer-height;
+	background-color: $footer-b-color;
+	filter:alpha(Opacity=60);-moz-opacity:0.6;opacity: 0.6;
+}
+.box4 {
+	height: $footer-height;
+}
+.again {
+	background-color: $footer-button-b-color;
+	font-size: $footer-button-font-size;
+	height: 6.7vh;
+	width: 42.6vw;
+	color: $footer-button-color;
+	border-radius: 1vh;
+}
+.share {
+	background-color: $footer-button2-b-color;
+	font-size: $footer-button-font-size;
+	height: 6.7vh;
+	width: 42.6vw;
+	color: $footer-button-color;
+	border-radius: 1vh;
+}

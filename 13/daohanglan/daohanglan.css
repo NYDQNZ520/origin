@@ -1,0 +1,86 @@
+.u12 {  
+    background: url(images/777.png) no-repeat;
+    background-position: -5.7rem -1rem;
+    width: 2.8rem;
+    height: 3.3rem;
+}
+.u13 {
+    background: url(images/777.png) no-repeat;
+    background-position: -10.7rem -.9rem;
+    width: 2.8rem;
+    height: 3.3rem;
+            }
+.u14 {
+    background: url(images/777.png) no-repeat;
+    background-position: -15.3rem -1rem;
+    width: 2.3rem;
+    height: 3.3rem;
+            }
+.u11 {
+    background: url(images/777.png) no-repeat;
+    background-position: -1rem -1rem;
+    width: 2.8rem;
+    height: 3.3rem;
+} 
+.u21 {
+    background: url(images/777.png) no-repeat;
+    background-position: -1rem -6.1rem;
+    width: 2.8rem;
+    height: 3.3rem;
+}
+/*隐藏checked复选框*/
+#sidemenu{
+    display: none;
+}
+
+#sidemenu:checked + aside {
+    /*为被选中的sidemenu后的aside设置属性（紧邻）*/
+    left: 0;
+    /*点击按钮即选中checked后,侧边栏位置变为贴着左边,配合ease-out使用,有渐变滑出的效果*/
+}
+
+#sidemenu:checked ~ #cebiandaohang {
+    /*为被选中的sidemenu后的wrap设置属性（非紧邻）*/
+    padding-left: 220px;
+}
+
+.caside {
+    /*侧边栏,初始位置为-200px，即隐藏效果*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -200px;
+    width: 200px;
+    background-color: #fff;
+    transition: 0.2s ease-out;
+    /*动画效果的执行方式是ease-out，即侧边栏滑动效果为渐变式，而不是生硬的突然变化*/
+}
+/*控制侧边栏进出的按钮（外部包裹）*/
+#cebiandaohang {
+    transition: 0.2s ease-out;
+}
+
+/*控制侧边栏进出的按钮（内部文字样式）*/
+.clabel {
+    /*控制侧边栏进出的按钮*/
+    background: url(images/task7_05.png) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 3.5vh;
+    margin-left: 2rem;  
+    width: 3.6vh;
+    height: 3.3vh;
+    display: inline-block;
+}
+#sideul {
+    padding-left: 0;
+}
+#sideul li {
+    color: #29bde0;
+    width: 100%;
+    font-size: 1.5em;
+    border-bottom: 1px solid #cecece; 
+}
+
+#sideul li:hover {
+    color: orange;
+}

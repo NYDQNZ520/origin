@@ -1,0 +1,170 @@
+html {
+	font-size: 62.5%; 
+}
+$body-b-color:#29bde0;
+$header-font-size:3.3vh;
+$header-color:#fff;
+$introduce-font-size:2.75vh;
+$content-b-color:#f5c97b;
+$content-color:#565656;
+$content-font-size:2.5vh;
+$content1-b-color:#83b09a;
+$content1-color:#fff;
+$content1-font-size:2.3vh;
+$footer-b-color: #29bde0;
+$footer-button-font-size:3.6vh;
+$footer-button-color:#fff;
+$footer-button--b-color:#fbb435;
+body {
+	background-color: $body-b-color;
+}
+/*头部*/
+header {
+	top: 0;
+	height: 8.1vh;
+	background-color: $body-b-color;
+	p {
+	font-family: "SimSun";
+	font-size: $header-font-size;
+	color:$header-color ;
+}
+}
+.Button1 {
+	background: url(images/task7_06.png) no-repeat;
+	background-size: 30.96vh 5.76vh;
+	background-position: -21.15vh -.7vh;
+	width: 3.3vh;
+	height: 4.7vh;
+	margin-top: 2.8vh;
+}
+.Button2 {
+	background: url(images/task7_06.png) no-repeat;
+	background-size: 30.96vh 5.76vh;
+	background-position: -16.7vh -.7vh;
+	width: 3vh;
+	height: 4.6vh;
+	margin-top: 2.8vh;
+	border: 0;
+}
+/*旁白介绍*/
+.introduce {
+	height: 7.5vh;
+	margin-top: 8.1vh;
+	background-color: #b9e9f5;
+	p {
+	margin-left: 4.3vw;
+	font-size: $introduce-font-size;
+	font-family: "SimSun";
+    }
+}
+.circle {
+	width: 5vh;
+	height: 5vh;
+	background-color: #fbb435;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%; 
+}
+.triangle {
+	margin-left: .5vh;
+	border-top: 1.5vh solid transparent;
+    border-left: 2.5vh solid #fff;
+    border-bottom: 1.5vh solid transparent;
+    border-radius: 3px;
+}
+.triangle2 {
+	width: 0;
+	border-left: .8vh solid transparent;
+	border-right: .8vh solid transparent;
+    border-top: 1.4vh solid #b9e9f5;
+    margin-left: 4.7vw;
+}
+.introduce1 {
+	height: 4.5vh;
+	p {
+	margin-left: 4.7vw;
+	font-size: 2.36vh;
+	font-family: "SimSun";
+    }
+}
+/*选手主体*/
+.box-box {
+	border: .5vh solid #fff;
+	width: 12vh;
+	height: 12vh;
+	margin-bottom: 1.7vh;
+	&:hover .box-box1 {
+	display: flex;
+	justify-content: space-around; 
+    }
+}
+.content {
+	flex: 1 1 auto;
+	width: 12vh;
+	height: 8.7vh;
+	background-color: $content-b-color;
+	color: $content-color;
+	font-size: $content-font-size;
+}
+.content1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 12vh;
+	height: 2.8vh;
+	flex: 0 1 auto;
+	background-color: $content1-b-color;
+	color: $content1-color;
+	font-size: $content1-font-size;
+	padding-bottom: .5vh;
+}
+.box-box1 {
+	padding-top: 1.5vh;
+}
+/*4个小图标*/
+.button1 {
+	width: 2.9vh;
+	height: 2.7vh;
+	background: url(images/task7_06.png) no-repeat;
+	background-size: 38.7vh 7.2vh;
+	background-position: -1vh -1.1vh;
+	border: 0;
+}
+.button2 {
+	width: 3vh;
+	height: 2.7vh;
+	background: url(images/task7_06.png) no-repeat;
+	background-size: 38.7vh 7.2vh;
+	background-position: -6vh -1.1vh;
+	border: 0;
+}
+.button3 {
+	width: 3vh;
+	height: 2.7vh;
+	background: url(images/task7_06.png) no-repeat;
+	background-size: 38.7vh 7.2vh;
+	background-position: -11vh -1.1vh;
+	border: 0;
+}
+.button4 {
+	width: 2.9vh;
+	height: 2.7vh;
+	background: url(images/task7_06.png) no-repeat;
+	background-size: 38.7vh 7.2vh;
+	background-position: -16vh -1.1vh;
+	border: 0;
+}
+/*底部*/
+footer {
+	height: 17vh;
+	background-color: $footer-b-color;
+	button {
+	width: 76.7vw;
+	height: 8vh;
+	border: 0;
+	font-size: $footer-button-font-size;
+	font-family: "SimSun";
+	background-color: $footer-button--b-color;
+	color: $footer-button-color;
+    }
+}
