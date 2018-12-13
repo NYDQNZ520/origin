@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@media only screen and (max-width: 767px) {
+  .sky {
+    display: none; }
+
+  .weixin, .qq, .xinlang, .px-sm-1 {
+    display: none; }
+
+  .top-box {
+    display: flex; }
+    .top-box a {
+      padding-left: 1rem;
+      font-size: 1.3rem;
+      color: #000; }
+
+  .top-box1 {
+    padding-right: 1rem; }
+
+  .top-box2 {
+    border-left: .2rem solid #28a745; }
+
+  .navbar-collapse {
+    padding-left: 0;
+    z-index: 1;
+    background-color: #29b078; }
+
+  .nav-item {
+    text-align: center; }
+
+  .nav-link:hover {
+    background-color: #20c997;
+    border: 0; }
+
+  /*按钮样式*/
+  .icon-bar {
+    margin-bottom: .5rem;
+    display: block;
+    width: 2.5rem;
+    height: .4rem;
+    background-color: #ccc; } }
+@media only screen and (min-width: 768px) {
+  .option0 {
+    float: left;
+    margin-top: 2.5rem; }
+
+  .top-box {
+    display: none; }
+
+  .navbar {
+    height: 10rem; }
+
+  .navbar-collapse {
+    display: flex;
+    justify-content: flex-end; }
+
+  .nav-link {
+    height: 10rem;
+    line-height: 9rem; }
+    .nav-link:hover {
+      padding-bottom: 4rem;
+      border-bottom: .4rem solid #fff;
+      color: #fff;
+      text-decoration: none; } }
+input[type=checkbox] {
+  display: none; }
+  input[type=checkbox]:checked ~ .sky {
+    display: block; }
+
+@media only screen and (min-width: 768px) {
+  .nav-item .nav-link {
+    margin-left: 1rem; } }
+.sky {
+  list-style: none;
+  font-size: .15rem; }
+
+.h {
+  width: 100%;
+  background-color: #29b078; }
+
+.top {
+  height: 3.8rem;
+  color: #396; }
+
+.weixin {
+  background: url(images/wx.png) no-repeat;
+  width: 3rem;
+  height: 2.7rem; }
+
+.qq {
+  background: url(images/qq.png) no-repeat;
+  width: 3rem;
+  height: 2.7rem; }
+
+.xinlang {
+  background: url(images/xl.jpg) no-repeat;
+  width: 3rem;
+  height: 2.7rem; }
+
+.option0 {
+  background: url(images/logo.png) no-repeat;
+  background-size: 100% 100%;
+  max-width: 11rem;
+  min-width: 11rem;
+  height: 5rem; }
+
+.navbar {
+  background-color: #29b078; }
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #fff; }
+
+/*# sourceMappingURL=header14.css.map */

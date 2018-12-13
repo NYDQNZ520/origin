@@ -1,0 +1,79 @@
+@media only screen and (max-width: 767px) {
+  .x {
+    font-style: italic; }
+
+  footer .footer-box6 {
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto; }
+
+  footer .footer-box7 {
+    font-size: 5px; } }
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  footer .footer-box6 {
+    margin-right: 0; } }
+footer {
+  width: 100%;
+  background-color: #26a26f;
+  color: #fff;
+  font-size: 1.6rem; }
+  footer a {
+    text-decoration: none; }
+
+.footer2 a {
+  color: #fff; }
+
+.footer-box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 10rem; }
+
+.footer-box2 {
+  display: flex;
+  width: 23rem; }
+
+.link2 {
+  padding-right: .5rem;
+  padding-left: .5rem; }
+
+.link3 {
+  padding-right: .5rem;
+  padding-left: .5rem;
+  border-left: .1rem solid #fff; }
+
+.footer-box3 {
+  display: flex;
+  width: 25rem; }
+
+.footer-box4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 5rem; }
+
+.link4 {
+  margin-bottom: .5rem;
+  margin-left: -.5rem; }
+
+.link5 {
+  background: url(images/css_sprites.png) no-repeat;
+  background-size: 182.1rem 143rem;
+  background-position: -53.2rem -53.4rem;
+  width: 9.7rem;
+  height: 9.7rem; }
+
+.footer-box6 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem; }
+
+.footer-box7 {
+  height: 3rem;
+  font-size: 1.2rem;
+  border-top: .1rem solid #32c086;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*# sourceMappingURL=footer14.css.map */
