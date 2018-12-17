@@ -6,6 +6,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #fafafa;
+	overflow:-Scroll;overflow-x:hidden;
 }
 @media only screen and (max-width: 767px){
     .v {
@@ -42,11 +43,13 @@ body {
     .box4 .d-flex {
     	margin-bottom: 1rem;
     }
-    body .box9 {
-    	height: 40rem;
-    	margin-top: 80rem;
-    	margin-bottom: 2rem;
-    }
+    main .box8{    
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;}
+        main .box7 {
+		height: 85rem;
+	}
     .box9 ul {
         padding-left: 40vw;
     }
@@ -57,6 +60,10 @@ body {
 @media only screen and (max-width: 575px){
 	div .box1 {
 	height: 78rem;}
+	body .box9 {
+    height: 40rem;
+    margin-bottom: 2rem;
+    }
 }
 @media only screen and (min-width: 768px) {
     .p {
@@ -68,22 +75,22 @@ body {
     	margin-top: 5rem;
     }
     main .box7 {
-		height: 40rem;
+		height: 85rem;
 	}
-    body .box9 {
-    	margin-top: 8rem;
-    	height: 20rem;
-    }
     .box9 ul {
     	padding-left: 0;
     }
-    div .box1 {
-	height: 52rem;}
 }
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 999px) {
 	main .box7 {
 		height: 35rem;
 	}
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	main .box8{    
+	-webkit-box-flex: 0;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;}
 	main .carousel2{
     height:84rem;
     }
@@ -92,10 +99,10 @@ body {
 	main .carousel2{
     height:84rem;
     }
+    div .box1 {
+	height: 52rem;}
 }
 @media screen and (min-width:992px) {
-    main .box7 .row {
-        padding-left:18rem;}
     main .box1{
         display: flex;justify-content: space-between;
     }
@@ -488,35 +495,35 @@ main span {
 .box-box11 {
 	background: url(images/css_sprites.png) no-repeat;
 	background-size: 182.1rem 143rem;
-	background-position: -147rem -130rem;
-	width: 16rem;
+	background-position: -145rem -130rem;
+	width: 18rem;
 	height: 6.5rem;
 }
 .box-box12 {
 	background: url(images/css_sprites.png) no-repeat;
 	background-size: 182.1rem 143rem;
-	background-position: -45rem -45.4rem;
-	width: 7rem;
+	background-position: -39rem -45.4rem;
+	width: 18rem;
 	height: 6.5rem;
 }
 .box-box13 {
 	background: url(images/css_sprites.png) no-repeat;
 	background-size: 182.1rem 143rem;
-	background-position: -79rem -72rem;
-	width: 17rem;
+	background-position: -78rem -72rem;
+	width: 18rem;
 	height: 6.5rem;
 }
 .box-box14 {
 	background: url(images/css_sprites.png) no-repeat;
 	background-size: 182.1rem 143rem;
-	background-position: -164rem -137rem;
+	background-position: -163.5rem -137rem;
 	width: 18rem;
 	height: 6.5rem;
 }
 .box-box15 {
 	background: url(images/css_sprites.png) no-repeat;
 	background-size: 182.1rem 143rem;
-	background-position: -64rem -64rem;
+	background-position: -62.5rem -64rem;
 	width: 18rem;
 	height: 6.5rem;
 }

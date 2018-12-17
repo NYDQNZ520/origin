@@ -9,7 +9,11 @@
 
     footer .footer-box7 {
     	font-size: 5px;
-    } }
+    } 
+    }
+@media only screen and (max-width: 575px) {
+    .rowdfd{flex-direction:column;} 
+    }
 @media only screen and (min-width: 576px) and (max-width: 991px) {
   footer .footer-box6 {
     margin-right: 0; } }
