@@ -247,6 +247,9 @@ body {
 .l {
   margin-right: -2rem; }
 
+div .pt10 {
+  padding-top: .5rem; }
+
 .text1 {
   font-size: 2vw; }
 
@@ -311,6 +314,9 @@ input {
   z-index: 10;
   margin: auto;
   text-align: center; }
+
+.carousel2 .dots {
+  bottom: 0%; }
 
 .dots label {
   display: inline-block;
