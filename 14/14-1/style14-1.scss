@@ -65,11 +65,6 @@ body {
     margin-bottom: 2rem;
     }
 }
-@media only screen and (min-width: 768px) {
-    .p {
-    	padding-left: 1.5rem;
-    }
-}
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 	main .toph3 {
     	margin-top: 5rem;
@@ -81,11 +76,6 @@ body {
     	padding-left: 0;
     }
 }
-@media only screen and (min-width: 768px) and (max-width: 999px) {
-	main .box7 {
-		height: 35rem;
-	}
-}
 @media only screen and (min-width: 768px) and (max-width: 992px) {
 	main .box8{    
 	-webkit-box-flex: 0;
@@ -94,6 +84,9 @@ body {
 	main .carousel2{
     height:84rem;
     }
+    main .box7 {
+		height: 35rem;
+	}
 }
 @media only screen and (min-width: 576px) and (max-width: 992px) {
 	main .carousel2{
@@ -108,13 +101,14 @@ body {
     }
 }
 @media only screen and (min-width: 768px) {
+    .p {
+    	padding-left: 1.5rem;
+    }
 	body .box9 {
 		height: 20rem;
 	}
-}
-@media only screen and (min-width: 576px) {
-	.box9 .row {
-        padding-left:15vw;}
+    .box9 .row {
+    padding-left:15vw;}
 }
 .top3 {
 	display: flex;
@@ -434,13 +428,12 @@ main span {
 	background-color: #fff;
 	margin-top: 3rem;
 	margin-bottom: 3rem;
-}
-.box6:hover {
+	&:hover {
 	box-shadow: darkgrey 0px 0px 30px 5px;z-index: 1;
-}
-.box6 p {
+    }
+    p {
 	margin-left: 3rem;
-	margin-right: 3rem;
+	margin-right: 3rem;}
 }
 .box-box7 {
 	background: url(images/css_sprites.png) no-repeat;
@@ -487,11 +480,11 @@ main span {
 	padding: 0;
 	height: 17.5rem;
 	background-color: #fff;
-}
-.box8:hover {
+	&:hover {
 	box-shadow: darkgrey 0px 0px 30px 5px;
 	position: relative;
 	z-index: 1;
+}
 }
 .box-box11 {
 	background: url(images/css_sprites.png) no-repeat;
@@ -532,24 +525,22 @@ main span {
 	height: 13.4rem;
 	width: 100%;
 	background-color: #fff;
+	ul {
+	color: #999;
+    }
+    li {
+	padding-left: 0;
+    }
 	a {text-decoration: none;
+	color: #999;
     }
 }
 .link1 {
 	padding-top: 2.2rem;
 	margin-bottom: 2.7rem;
 }
-.box9 ul {
-	color: #999;
-}
-.box9 li {
-	padding-left: 0;
-}
 .box-ul {
 	margin-top: 1.6rem;
 	padding-bottom: 2.2rem;
-}
-.box9 a {
-	color: #999;
 }
 @import "footer/footer14.scss";

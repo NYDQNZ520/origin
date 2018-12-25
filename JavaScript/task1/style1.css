@@ -1,0 +1,28 @@
+body {
+  font-size: 62.5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 36rem; }
+  body div {
+    margin: 1rem;
+    width: 10rem;
+    height: 10rem;
+    background: #ffa500;
+    border-radius: 1em; }
+
+button {
+  margin-top: 1rem;
+  width: 99.8%;
+  height: 3rem;
+  background: #fff;
+  color: #ffa500;
+  border: 1px solid #ffa500;
+  border-radius: .3rem; }
+  button:hover {
+    color: #fff;
+    background: #ffa500; }
+
+/*# sourceMappingURL=style1.css.map */
