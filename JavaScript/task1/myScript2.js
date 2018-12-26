@@ -18,18 +18,12 @@ function one(){
     var arr = new Array(3);//生成空数组格子
     var arr1 = new Array(3);
     for (var i=0; i<arr.length; i++) {
-        var rnd = Math.floor(Math.random()*9);
-        console.log(rnd);//监控rnd
-        if(i==0){
-            arr[i]=rnd;
+        var rnds = Math.floor(Math.random()*9);
+        console.log(rnds);//监控rnd
+        if(arr.indexOf(rnds) < 0){//判断重复用indexof方法，如果数组里没有这个数，则返回的值未-1
+            arr[i]=rnds;  //取出数放到数组中
         }else{
-            for (var j=0; j<i; j++) {
-            if(arr[j]==rnd){
-                i--
-            }else{
-                arr[i]=rnd;
-                }
-            }
+            i--;
         }
     }
     for (var i=0; i<arr1.length; i++){
