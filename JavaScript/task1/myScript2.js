@@ -1,5 +1,5 @@
 var x = document.getElementsByTagName("div");
-var colors=['red','plum','blue','green','cyan','black','pink','gray','brown'];
+/*var colors=['red','plum','blue','green','cyan','black','pink','gray','brown'];*/
 btnstart.onclick=function(){//点击开始
     o=setInterval(function(){//使用定时器
         one();//调用函数
@@ -26,7 +26,7 @@ function one(){
             i--;
         }
     }
-    for (var i=0; i<arr1.length; i++){
+    /*for (var i=0; i<arr1.length; i++){
         var rnd = Math.floor(Math.random()*9);
         if(i==0){
             arr1[i]=rnd;
@@ -39,8 +39,16 @@ function one(){
                 }
             }
         }
+    }*/
+    function color(){
+    var rgb;
+    var r = Math.floor(Math.random()*265);
+    var g = Math.floor(Math.random()*265);
+    var b = Math.floor(Math.random()*265);
+    rgb = '('+r+','+g+','+b+')';
+    return rgb;
     }
     for(var i=0;i<arr.length;i++){
-        x[arr[i]].style.background=colors[arr1[i]];//将随机的颜色给随机的地址
+        x[arr[i]].style.background='rgb' + color();//将随机的颜色给随机的地址
     }
 }

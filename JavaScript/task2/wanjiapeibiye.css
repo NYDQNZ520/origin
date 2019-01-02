@@ -1,0 +1,123 @@
+@charset "UTF-8";
+body {
+  font-size: 62.5%;
+  background-color: #f0f0f0; }
+
+header {
+  height: 8.8vh;
+  background-color: #29bde0; }
+  header .a1 {
+    background: url(images/4562.png) no-repeat;
+    background-size: 90% 90%;
+    width: 1.2rem;
+    height: 1.9rem;
+    margin-bottom: .1rem;
+    margin-left: .5rem; }
+  header h1 {
+    color: #fff;
+    font-family: '宋体';
+    margin-bottom: .3rem; }
+  header .a2 {
+    background: url(images/4561.png) no-repeat;
+    background-size: 100% 100%;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: .1rem;
+    margin-right: .5rem; }
+
+.box1 {
+  margin-top: .5rem;
+  width: 97vw;
+  height: 20rem; }
+  .box1 .box1-box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    background-color: #fff;
+    margin-right: 0.1rem;
+    font-size: 1.2rem; }
+  .box1 .box1-box2 {
+    width: 77vw; }
+    .box1 .box1-box2 div {
+      height: 16.8rem;
+      background-color: #fbfbfb;
+      font-size: 1rem; }
+    .box1 .box1-box2 button {
+      margin-top: .2rem;
+      width: 77vw;
+      background-color: #fbfbfb;
+      height: 3rem;
+      border: 0;
+      color: #29bde0; }
+
+.box2 {
+  margin-top: .5rem;
+  width: 97vw;
+  height: 6rem;
+  background-color: #fff;
+  font-size: 1rem; }
+  .box2 p {
+    padding-top: 1.5rem;
+    padding-left: 1.5rem; }
+    .box2 p input {
+      width: 2rem;
+      background-color: #f0f0f0;
+      color: #fab344;
+      border: 0; }
+    .box2 p span {
+      font-size: .7rem;
+      color: #fab344; }
+
+.input1 {
+  margin-top: .5rem;
+  width: 97vw;
+  height: 3rem;
+  background-color: #fab344;
+  color: #fff;
+  border: 0;
+  font-size: 1.4rem; }
+
+.bottom-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin: .2rem auto 0 auto; }
+
+/*横条样式*/
+input[type=range] {
+  -webkit-appearance: none;
+  /*清除系统默认样式*/
+  width: 90%;
+  height: 5px;
+  /*横条的高度*/
+  background-color: #fab344;
+  outline: none;
+  cursor: pointer; }
+
+/*拖动块的样式*/
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  /*清除系统默认样式*/
+  width: 1.7rem;
+  height: 1.1rem;
+  background: url(images/img9.png) no-repeat 0 0/cover;
+  border: none;
+  cursor: pointer; }
+
+.img7 {
+  width: 1rem;
+  height: 1rem;
+  background: url(images/img7.png) no-repeat 0 0/cover;
+  outline: none;
+  border: none; }
+
+.img8 {
+  width: 1rem;
+  height: 1rem;
+  background: url(images/img8.png) no-repeat 0 0/cover;
+  outline: none;
+  border: none; }
+
+/*# sourceMappingURL=wanjiapeibiye.css.map */
