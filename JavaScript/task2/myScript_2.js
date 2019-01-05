@@ -4,6 +4,12 @@ function myFunction(){
 	}else{
 		inputNumber.value=rangeNumber.value;
 	}
+   if (carname != undefined) {
+       window.location.href = "http://118.126.113.248/jnshu784/JavaScript/task3/fenpeiye.html";
+       //已配置身份转到下一个页面
+   } else {
+       alert("请先点击设置玩家身份哦");
+   }
 }
 var inputNumber = document.getElementById("inputNumber");
 var rangeNumber = document.getElementById("rangeNumber");
@@ -75,4 +81,7 @@ function makeId() {
         allplayer[all] = k;  //将身份牌打乱
     }
     console.log(allplayer);
+    carname = JSON.stringify(allplayer);  //转换为字符串
+    sessionStorage.data = carname;  //存入
 }
+var carname;

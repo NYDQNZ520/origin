@@ -32,7 +32,8 @@ header {
 }
 /*横条样式*/
 input[type=range] {
-    -webkit-appearance: none;/*清除系统默认样式*/
+    -webkit-appearance: none;
+    -moz-appearance: none;/*清除系统默认样式*/
     width: 90%;
     height: 5px;/*横条的高度*/
     background-color: #fab344;
