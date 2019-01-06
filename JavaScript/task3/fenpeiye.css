@@ -1,0 +1,81 @@
+body {
+  font-size: 62.5%;
+  background-color: #29bde0; }
+  header {
+  height: 8.8vh;
+  background-color: #29bde0; }
+  header .a1 {
+    background: url(images/4562.png) no-repeat;
+    background-size: 90% 90%;
+    width: 1.2rem;
+    height: 1.9rem;
+    margin-bottom: .1rem;
+    margin-left: .5rem; }
+  header h1 {
+    color: #fff;
+    font-family: '宋体';
+    margin-bottom: .3rem; }
+  header .a3 {
+    background: url(images/5633.png) no-repeat;
+    background-size: 100% 100%;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: .1rem;
+    margin-right: .5rem; }
+    .input1 {
+    position:fixed;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    bottom: 2.5rem; 
+    width: 97vw;
+    height: 3rem;
+    background-color: #fab344;
+    color: #fff;
+    border: 0;
+    font-size: 1.4rem; }
+    .box1{
+    	margin-top: 3rem;
+    	height: 25rem;
+    	width: 72vw;
+    	background-color: #fdedc5;
+    	z-index: 0;
+    }
+        .box1 img{
+    	width: 8rem;
+    	height: 8rem;
+    }
+    #box1-box1{
+        display: none;
+        z-index: 1;
+    	margin-top: 3rem;
+    }
+    #p1{
+    	margin-top: .5rem;
+    	font-size: 1.5rem;
+    	color: #3cc;
+    }
+    .box1-box2{
+    	position: absolute;
+    	margin-top: -1.2rem;
+    	width: 2.4rem;
+    	height: 2.4rem;
+    	font-size: 1.5rem;
+    	background-color: #fff;
+    	color: red;
+    	border: 1px solid #fdedc5;
+    	border-radius: 50%;
+    	-moz-border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	z-index: 10;
+    }
+    .box1-box3{
+    	z-index: 2;
+    	width: 100%;
+    	height: 100%;
+    	background: url(images/5634.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    .box1-box3 img{
+    	width: 12rem;
+    	height: 12rem;
+    }
